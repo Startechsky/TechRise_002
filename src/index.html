@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <link href="./output.css" rel="stylesheet">
+  
+  <script>
+    function ChangeColor() {
+      const element= document.getElementById("color"); element.classList.toggle("bg-gray-900");
+      element.classList.toggle("bg-blue-100");
+
+      const New= document.getElementById("Extend");
+      New.classList.toggle("text-white");
+      New.classList.toggle("text-gray-700");
+
+      const old= document.getElementById("head");
+      old.classList.toggle("bg-gray-800");
+      old.classList.toggle("bg-white");
+
+      const tog= document.getElementById("AAI");
+      tog.classList.toggle("bg-gray-800");
+      tog.classList.toggle("bg-white");
+      tog.classList.toggle("text-white");
+      tog.classList.toggle("text-gray-800");
+      tog.classList.toggle("border-gray-700");
+      tog.classList.toggle("border-red-500");
+
+      const got= document.getElementById("ACT");
+      got.classList.toggle("bg-gray-800");
+      got.classList.toggle("bg-white");
+      got.classList.toggle("text-white");
+      got.classList.toggle("text-gray-800");
+      got.classList.toggle("border-gray-700");
+      got.classList.toggle("border-red-500");
+
+      const tgo=document.getElementById("INT");
+      tgo.classList.toggle("bg-gray-800");
+      tgo.classList.toggle("bg-white");
+      tgo.classList.toggle("text-white");
+      tgo.classList.toggle("text-gray-800");
+      tgo.classList.toggle("border-gray-700");
+      tgo.classList.toggle("border-red-500");
+
+      const ved=document.getElementById("Devlens");
+      ved.classList.toggle("bg-gray-800");
+      ved.classList.toggle("bg-white");
+
+      const textc=document.getElementById("devtxt");
+      textc.classList.toggle("text-white");
+      textc.classList.toggle("text-gray-800");
+
+      const you=document.getElementById("rem");
+      you.classList.toggle("text-white");
+      you.classList.toggle("text-gray-800");
+      you.classList.toggle("hover:text-white")
+
+      const cruise=document.getElementById("style");
+      cruise.classList.toggle("bg-gray-800");
+      cruise.classList.toggle("bg-white");
+
+      const suice=document.getElementById("spy");
+      suice.classList.toggle("text-white");
+      suice.classList.toggle("text-gray-800");
+
+      const iuse=document.getElementById("remspy");
+      iuse.classList.toggle("text-white");
+      iuse.classList.toggle("text-gray-800");
+      iuse.classList.toggle("hover:text-white");
+
+      const on=document.getElementById("speed");
+      on.classList.toggle("bg-gray-800");
+      on.classList.toggle("bg-white");
+
+      const off=document.getElementById("speedtxt");
+      off.classList.toggle("text-white");
+      off.classList.toggle("text-gray-800");
+
+      const swi=document.getElementById("remspeed");
+      swi.classList.toggle("text-white");
+      swi.classList.toggle("text-gray-800");
+      swi.classList.toggle("hover:text-white");
+
+      
+    const kneel=document.getElementById("js");
+      kneel.classList.toggle("bg-gray-800");
+      kneel.classList.toggle("bg-white");
+
+      const sad=document.getElementById("jstxt");
+      sad.classList.toggle("text-white");
+      sad.classList.toggle("text-gray-800");
+
+      const sit=document.getElementById("remjs");
+      sit.classList.toggle("text-white");
+      sit.classList.toggle("text-gray-800");
+      sit.classList.toggle("hover:text-white");
+
+      
+      const man=document.getElementById("tab");
+      man.classList.toggle("bg-gray-800");
+      man.classList.toggle("bg-white");
+
+      const boy=document.getElementById("tabtxt");
+      boy.classList.toggle("text-white");
+      boy.classList.toggle("text-gray-800");
+
+      const she=document.getElementById("remtab");
+      she.classList.toggle("text-white");
+      she.classList.toggle("text-gray-800");
+      she.classList.toggle("hover:text-white");
+
+      
+     const video=document.getElementById("view");
+      video.classList.toggle("bg-gray-800");
+      video.classList.toggle("bg-white");
+
+      const viewing=document.getElementById("viewtxt");
+      viewing.classList.toggle("text-white");
+      viewing.classList.toggle("text-gray-800");
+
+      const viewer=document.getElementById("remview");
+      viewer.classList.toggle("text-white");
+      viewer.classList.toggle("text-gray-800");
+      viewer.classList.toggle("hover:text-white");
+
+      
+    const marking=document.getElementById("mark");
+      marking.classList.toggle("bg-gray-800");
+      marking.classList.toggle("bg-white");
+
+      const mark=document.getElementById("marktxt");
+      mark.classList.toggle("text-white");
+      mark.classList.toggle("text-gray-800");
+
+      const marked=document.getElementById("remmark");
+      marked.classList.toggle("text-white");
+      marked.classList.toggle("text-gray-800");
+      marked.classList.toggle("hover:text-white");
+
+      
+    const grind=document.getElementById("grid");
+      grind.classList.toggle("bg-gray-800");
+      grind.classList.toggle("bg-white");
+
+      const grinding=document.getElementById("gridtxt");
+      grinding.classList.toggle("text-white");
+      grinding.classList.toggle("text-gray-800");
+
+      const remover=document.getElementById("remgrid");
+      remover.classList.toggle("text-white");
+      remover.classList.toggle("text-gray-800");
+      remover.classList.toggle("hover:text-white");
+
+      
+      const paletter=document.getElementById("palette");
+      paletter.classList.toggle("bg-gray-800");
+      paletter.classList.toggle("bg-white");
+
+      const pal=document.getElementById("palettetxt");
+      pal.classList.toggle("text-white");
+      pal.classList.toggle("text-gray-800");
+
+      const pass=document.getElementById("rempalette");
+      pass.classList.toggle("text-white");
+      pass.classList.toggle("text-gray-800");
+      pass.classList.toggle("hover:text-white");
+
+      
+      const linker=document.getElementById("link");
+      linker.classList.toggle("bg-gray-800");
+      linker.classList.toggle("bg-white");
+
+      const linking=document.getElementById("linktxt");
+      linking.classList.toggle("text-white");
+      linking.classList.toggle("text-gray-800");
+
+      const lead=document.getElementById("remlink");
+      lead.classList.toggle("text-white");
+      lead.classList.toggle("text-gray-800");
+      lead.classList.toggle("hover:text-white");
+
+      
+      const drum=document.getElementById("dom");
+      drum.classList.toggle("bg-gray-800");
+      drum.classList.toggle("bg-white");
+
+      const dominate=document.getElementById("domtxt");
+      dominate.classList.toggle("text-white");
+      dominate.classList.toggle("text-gray-800");
+
+      const drunk=document.getElementById("remdom");
+      drunk.classList.toggle("text-white");
+      drunk.classList.toggle("text-gray-800");
+      drunk.classList.toggle("hover:text-white");
+
+      
+      const consoling=document.getElementById("console");
+      consoling.classList.toggle("bg-gray-800");
+      consoling.classList.toggle("bg-white");
+
+      const control=document.getElementById("consoletxt");
+      control.classList.toggle("text-white");
+      control.classList.toggle("text-gray-800");
+
+      const server=document.getElementById("remconsole");
+      server.classList.toggle("text-white");
+      server.classList.toggle("text-gray-800");
+      server.classList.toggle("hover:text-white");
+
+      const life= document.getElementById("moon");
+            if (life.src.includes("images/icon-sun.svg")) {
+                life.src = "images/icon-moon.svg";
+            } else {
+                life.src = "images/icon-sun.svg"; 
+    }
+
+    const Change= document.getElementById("moonlight");
+    Change.classList.toggle("bg-gray-700");
+    Change.classList.toggle("bg-gray-200");
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cont bg-gray-900 p-5 md:px-28 md:py-9 font-notosans" id="color">
+
+    <!--All View (Mobile, Desktop)-->
+
+    <div class="header flex justify-between p-2 rounded-md opacity bg-gray-800 opacity-100 mb-9 md:mb-11 shadow-2xl" id="head">
+
+      <!--Logo and Toggle button -->
+
+      <img src="images/logo.svg" alt="" srcset="" class="text-blue-50">
+
+        <div class="light bg-gray-700 p-3 rounded-md w-fit cursor-pointer hover:bg-red-500 ease-in-out transition duration-500" onclick="ChangeColor()" id="moonlight">
+
+          <img src="images/icon-sun.svg" alt="" srcset="" id="moon">
+
+        </div>
+
+    </div>
+
+    <!--Extensions List Mobile View-->
+  <div class="exmobile md:flex md:justify-between">
+  <div class="text-white font-bold text-3xl mb-5 flex item-center justify-center" id="Extend">
+    Extensions List
+  </div>
+  
+  <!--Toggle Section-->
+  <div class="AAI flex justify-evenly font-medium mb-9 text-xl gap-3">
+  <!--All-->
+  <div class="All py-2 px-5 rounded-3xl  bg-gray-800 border-gray-700 border-1 hover:bg-red-500 text-white hover:text-gray-900 hover:border-0 hover:border-gray-800 cursor-pointer ease-in-out transition duration-500" id="AAI">
+    All
+  </div>
+
+  <!--Active-->
+  <div class="Active py-2 px-5 rounded-3xl  bg-gray-800 border-gray-700 border-1 hover:bg-red-500 text-white hover:text-gray-900 hover:border-0 hover:border-gray-800 cursor-pointer ease-in-out transition duration-500" id="ACT">
+    Active
+  </div>
+
+  <!--Inactive-->
+  <div class="Inactive py-2 px-5 rounded-3xl  bg-gray-800 border-gray-700 border-1 text-white hover:text-gray-900 hover:bg-red-500 hover:border-0 hover:border-gray-800  cursor-pointer ease-in-out transition duration-500" id="INT">
+    Inactive
+  </div>
+
+</div>
+</div>
+
+
+
+  <!--Extension section-->
+  <div class="exsec md:flex-wrap md:flex md:gap-6 justify-center mb-10">
+    <!--Dev section-->
+    <div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="Devlens">
+      <div class="exc flex gap-5 mb-6 md:mb-12">
+        <img src="images/logo-devlens.svg" alt="" srcset="" class="">
+        <div class="total">
+          <div class="lens text-xl text-white mb-2 font-medium" id="devtxt">
+            DevLens
+          </div>
+            <span class="qui text-gray-400 font-semibold">
+              Quickly inspect page layouts and visualize element boundaries.
+            </span>
+        </div>
+      </div>
+    
+
+    <div class="rem">
+      <button type="button" class=" remove rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="rem">
+        Remove
+      </button>
+      <!--Toggle-->
+      <div class="relative inline-block w-12 h-6  left-52">
+        <!-- Hidden input -->
+        <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+        
+        <!-- Toggle background -->
+        <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+        
+        <!-- Slider -->
+        <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+      </div>
+      
+    </div>
+   </div>
+
+   <!--StyleSpy section-->
+  <div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="style">
+    <div class="exc flex gap-5 mb-6 md:mb-12">
+      <img src="images/logo-style-spy.svg" alt="" srcset="" class="">
+      <div class="total">
+        <div class="lens text-xl text-white mb-2 font-medium" id="spy">
+          StyleSpy
+        </div>
+          <span class="qui text-gray-400 font-semibold">
+            Instantly analyze and copy CSS from any webpage element.
+          </span>
+      </div>
+   </div>
+  
+
+  <div class="rem">
+    <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remspy">
+      Remove
+    </button>
+    <!--Toggle-->
+    <div class="relative inline-block w-12 h-6  left-52">
+      <!-- Hidden input -->
+      <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+      
+      <!-- Toggle background -->
+      <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+      
+      <!-- Slider -->
+      <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+    </div>
+    
+  </div>
+ </div>
+<!--SpeedBoost Section-->
+ <div class="dev Section bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="speed">
+    <div class="exc flex gap-5 mb-6 md:mb-12">
+      <img src="images/logo-speed-boost.svg" alt="" srcset="" class="">
+      <div class="total">
+        <div class="lens text-xl text-white mb-2 font-medium" id="speedtxt">
+          SpeedBoost 
+        </div>
+          <span class="qui text-gray-400 font-semibold">
+            SpeedBoost
+            Optimizes browser resource usage to accelerate page loading.
+          </span>
+      </div>
+   </div>
+  
+
+  <div class="rem">
+    <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remspeed">
+      Remove
+    </button>
+    <!--Toggle-->
+    <div class="relative inline-block w-12 h-6  left-52">
+      <!-- Hidden input -->
+      <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+      
+      <!-- Toggle background -->
+      <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+      
+      <!-- Slider -->
+      <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+    </div>
+    
+  </div>
+ </div>
+ <!--JSONWizard Section-->
+ <div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="js">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-json-wizard.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="jstxt">
+        JSONWizard 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Formats, validates, and prettifies JSON responses   in-browser.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remjs">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--TabMaster Pro Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="tab">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-tab-master-pro.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="tabtxt">
+        TabMaster Pro 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Organizes browser tabs into groups and sessions.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remtab">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--ViewportBuddy Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="view">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-viewport-buddy.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="viewtxt">
+        ViewportBuddy 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Simulates various screen resolutions directly within the browser.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer" id="remview">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--Markup Notes Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="mark">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-markup-notes.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="marktxt">
+        Markup Notes 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Enables annotation and notes directly onto webpages for collaborative debugging.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remmark">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--GridGuides Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="grid">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-grid-guides.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="gridtxt">
+        GridGuides 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Overlay customizable grids and alignment guides on any webpage.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remgrid">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--Palette Picker Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="palette">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-palette-picker.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="palettetxt">
+        Palette Picker 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Instantly extracts color palettes from any webpage.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="rempalette">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--LinkChecker Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="link">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-link-checker.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="linktxt">
+        LinkChecker 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Scans and highlights broken links on any page.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remlink">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--DOM Snapshot Section-->
+<div class="dev Snapshot bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="dom">
+  <div class="exc flex gap-5 mb-6 md:-scroll md:mb-12">
+    <img src="images/logo-dom-snapshot.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="domtxt">
+        DOM Snapshot 
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Capture and export DOM structures quickly.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remdom">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+<!--ConsolePlus Section-->
+<div class="dev bg-gray-800 p-6 rounded-2xl border-1 border-gray-700 mb-7 max-w-[430px] md:mb-0 shadow-2xl" id="console">
+  <div class="exc flex gap-5 mb-6 md:mb-12">
+    <img src="images/logo-console-plus.svg" alt="" srcset="" class="">
+    <div class="total">
+      <div class="lens text-xl text-white mb-2 font-medium" id="consoletxt">
+        ConsolePlus
+      </div>
+        <span class="qui text-gray-400 font-semibold">
+          Enhanced developer console with advanced filtering and logging.
+        </span>
+    </div>
+ </div>
+
+
+<div class="rem">
+  <button type="button" class="rounded-3xl px-4 py-2 border-gray-500 border-2 text-white font-semibold hover:bg-red-500 transition ease-in-out duration-500 cursor-pointer " id="remconsole">
+    Remove
+  </button>
+  <!--Toggle-->
+  <div class="relative inline-block w-12 h-6  left-52">
+    <!-- Hidden input -->
+    <input type="checkbox" id="toggle" class="opacity-0 w-0 h-0">
+    
+    <!-- Toggle background -->
+    <label for="toggle" class="absolute top-0 left-0 right-0 bottom-0 bg-red-500 cursor-pointer rounded-full transition"></label>
+    
+    <!-- Slider -->
+    <span class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform transform translate-x-0"></span>
+  </div>
+  
+</div>
+</div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Adedokun Emmanuel</a>.
+  </div>
+</div>
+</body>
+</html>
